@@ -173,7 +173,7 @@ const Form = () => {
 ))}
           </span>
       </Modal> */}
-       <h1 class="text-3xl font-bold">Napiš kartičku</h1>
+       <h1 class="text-3xl font-bold">Napiš kartičku </h1>
        <p class="text-gray-500 dark:text-gray-400">Vytvořena kartička ve složce karta</p>
      </div>
      <form onSubmit={submitForm} class="space-y-4">
@@ -223,7 +223,7 @@ const Form = () => {
            class="text-sm ml-40 font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
            for="PocetKaret"
          >
-           Počet Karet 56 Max
+           Počet Karet 56 Maximum
          </label>
          <div className='flex flex-row gap-2'>
          <input
